@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conference Online Registration</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+  <h1 id="title">Conference Online Registration</h1>
+  <p id="description">
+  	Please fill in the form below. We'll contact you as soon as possible.
+  </p>
+  
+  <form id="survey-form">
+  	<div class="labels">
+  	  <label id="name-label" for="name"><strong>* Full Name:</strong></label>
+  	    <input type="text" name="name" placeholder="Enter Your Name" required>
+  	</div> 
+  	  
+  	<div class="labels">
+  	    <label id="gender" for="gender"><strong>Gender:</strong></label>
+  	      &nbsp;
+  	    <label>Male</label>
+  	      <input type="radio" name="gender" value="male">
+  	    <label>Female</label>
+  	      <input type="radio" name="gender" value="female">
+  	</div>
+  	
+  	<div class="labels">
+  	    <label id="email-label" name="email"><strong>* Email:</strong></label>
+  	      <input type="text" name="email" placeholder="Enter your Email" required>
+  	</div>
+  	
+  	<div class="labels">
+        <label id="drop-down" for="profession"><strong>Profession:</strong></label>
+          <select id="dropdown" name="profession">
+          	<option disabled selected value>Select an option</option>
+          	<option value="student">Student</option>
+          	<option value="engineer">Engineer</option>
+          	<option value="doctor">Doctor</option>
+          	<option value="businessman">Businessman</option>
+          	<option value="other">Other</option>
+          </select>
+    </div>
+    
+  	<div class="labels">
+  	    <label id="number-label" for="age"><strong>* Age:</strong></label>
+  	      <input type="number" name="number" id="number" min="18" max="50" placeholder="Enter your Age">
+    </div>
+    
+    <div class="labels">
+        <label id="address" for="address"><strong>Address:</strong></label>
+          <input type="text" name="address" id="address">
+    </div>
+    
+    <div class="labels">
+    	<label id="first-time" for="first-time"><strong>First time to attend this conference? :</strong></label>
+    	
+    	<input type="radio" name="yes">Yes
+    	<input type="radio" name="no">No
+    </div>
+    
+    <div class="labels">
+    	<label id="event" for="event"><strong>I will attend:</strong></label>
+    	
+    	<input type="checkbox" name="event1" value="event1">Event 1 - Wed, Jul 10, 2019 
+    	
+    	<input type="checkbox" name="event1" value="event2">Event 2 - Thu, Jul 11, 2019
+    	
+    	<input type="checkbox" name="event1" value="event3">Event 3 - Fri, Jul 12, 2019
+    	
+    	<input type="checkbox" name="event1" value="event4">Event 4 - Sat, Jul 13, 2019
+    </div>
+    
+    <div class="labels">
+    	<label id="comment" for="comment"><strong>Any Suggestions?</strong></label>
+    	
+    	  <textarea rows="5" cols="50"></textarea>
+    </div>
+    
+    <div class="labels">
+    	<button id="sumbit" type="submit">Submit</button>
+    </div>
+    </div>
+  </form>
+</body>
+</html>

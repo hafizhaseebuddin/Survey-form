@@ -1,0 +1,31 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #F3D3DF;
+	margin: 0%;
+	padding: 5%;
+}
+input[type=text] {
+	width: 50%;
+	padding: 12px, 20px;
+	margin: 8px, 0px;
+}
+input[type=number] {
+	width: 50%;
+	padding: 12px, 20px;
+	margin: 8px, 0px;
+} 
+#profession {
+	width: 50%
+}
+
+.labels {
+	display: block;
+	padding: 20px;
+}
+#event {
+	display: block;
+	padding: 20px;
+}
